@@ -1,7 +1,8 @@
 
 # tools we expect devs across many scenarios will want
+choco install -y powershell-core --install-arguments='"ADDEXPLORERCONTEXTMENUOPENPOWERSHELL=1"'
 choco install -y vscode
-choco install sublimetext3
+choco install -Y sublimetext3
 choco install -y git --package-parameters="'/GitAndUnixToolsOnPath /WindowsTerminal /NoShellIntegration /NoAutoCrlf'"
 choco install pwsh
 #choco install -y python

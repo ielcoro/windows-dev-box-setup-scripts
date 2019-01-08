@@ -22,7 +22,7 @@ $applicationList = @(
 	"Microsoft.BingNews"
 	"Microsoft.BingSports"
 	"Microsoft.BingWeather"
-	"Microsoft.CommsPhone"
+	#"Microsoft.CommsPhone"
 	"Microsoft.Getstarted"
 	"Microsoft.WindowsMaps"
 	"*MarchofEmpires*"

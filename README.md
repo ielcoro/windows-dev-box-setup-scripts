@@ -30,6 +30,10 @@ For more info on testing your changes take a look at the [contribution guideline
 ## How to run the scripts
 Before you begin, please read the [Legal](#Legal) section.
 
+|Click link to run  |Description  |
+|---------|---------|
+|<a href='http://boxstarter.org/package/url?https://raw.githubusercontent.com/ielcoro/windows-dev-box-setup-scripts/master/dev_asemblia.ps1'>Asemblia Dev</a>     | Asemblia Development |
+
 To run a recipe script, click a link in the table below from your target machine. This will download the Boxstarter one-click application, and prompt you for Boxstarter to run with Administrator privileges (which it needs to do its job). Clicking yes in this dialog will cause the recipe to begin. You can then leave the job unattended and come back when it's finished.
 
 |Click link to run  |Description  |
@@ -56,6 +60,8 @@ with a non-blank password. Use this user going forward. For more info on WSL ple
 - The Boxstarter ClickOnce installer does not work when using Chrome.  This issue is being tracked [here](https://github.com/chocolatey/boxstarter/issues/345). Please use Edge to run the ClickOnce installer.
 - Reboot is not always logging you back in to resume the script.  This is being tracked [here](https://github.com/chocolatey/boxstarter/issues/318).  The workaround is to login manually and the script will continue running. 
 - There have been reports of Windows 1803 not successfully launching Boxstarter via the web launcher. See this issue for details: https://github.com/chocolatey/boxstarter/issues/301
+- Visual Studio 2019 is not available in chocolatey
+- Office is not available in chocolatey
 
 ## Working with Chocolatey in an organization?
 As an organization, you may not be keen to reach out to the internet. That's fine as with just a few modifications you can still take advantage of these scripts. Visit the [organizational use page](ORGANIZATION.md) to learn how.

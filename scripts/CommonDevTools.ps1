@@ -9,3 +9,4 @@ choco install pwsh
 choco install -y 7zip.install
 choco install -y sysinternals
 choco install -y sql-server-management-studio
+choco install -y foxitreader --ia '/MERGETASKS="!desktopicon,!setdefaultreader,!displayinbrowser /COMPONENTS=*pdfviewer,*ffse,*installprint,*ffaddin,*ffspellcheck,!connectedpdf"'
